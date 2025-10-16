@@ -5,9 +5,6 @@ hero:
   name: "Copper Puppetry"
   text: "铜傀奇谭"
   tagline: 蒸汽朋克塔防 × 策略卡牌 | 铸造你的铜傀军团
-  image:
-    src: /hero-image.svg
-    alt: Copper Puppetry
   actions:
     - theme: brand
       text: 开始探索

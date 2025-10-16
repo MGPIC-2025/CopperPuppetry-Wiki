@@ -4,11 +4,12 @@ export default defineConfig({
   title: "Copper Puppetry Wiki",
   description: "铜傀奇谭游戏百科全书",
   base: '/CopperPuppetry-Wiki/',
+  ignoreDeadLinks: true, // 允许死链接，页面可以后续添加
   head: [
-    ['link', { rel: 'icon', href: '/CopperPuppetry-Wiki/favicon.ico' }]
+    // ['link', { rel: 'icon', href: '/CopperPuppetry-Wiki/favicon.ico' }] // 暂时注释，后续添加 favicon
   ],
   themeConfig: {
-    logo: '/logo.svg',
+    // logo: '/logo.svg', // 暂时注释，后续添加 logo
     nav: [
       { text: '首页', link: '/' },
       { text: '设计玩法', link: '/gameplay/' },
