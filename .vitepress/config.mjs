@@ -139,11 +139,12 @@ export default defineConfig({
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2025 Copper Puppetry Team'
-    },
-
-    search: {
-      provider: 'local'
     }
+
+    // 搜索功能暂时禁用
+    // search: {
+    //   provider: 'local'
+    // }
   }
 })
 
