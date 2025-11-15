@@ -36,8 +36,8 @@ features:
 
 ## 🎯 游戏特色
 
-### 神灵的对弈
-在永恒棋盘的彼岸，诸神以铜偶为棋子，进行着决定世界命运的对弈。你将扮演一位新生神灵，在这场永恒的棋局中证明自己的智慧与力量。
+### 铜曜王朝的沉眠与觉醒
+在齿轮与蒸汽交织的世界中，曾经辉煌的铜曜王朝在"大休眠"事件中陷入沉睡。你将唤醒沉睡的铜偶，在神灵的对弈中指挥这些带着往日记忆的机械生命，探索大休眠的真相。
 
 > 📖 [探索完整的游戏背景故事](/lore/background)
 
@@ -90,7 +90,7 @@ features:
 ---
 
 <div style="text-align: center; margin: 3rem 0; padding: 2rem; border: 2px solid var(--vp-c-brand-1); border-radius: 12px; background: rgba(245, 158, 11, 0.08);">
-  <h3 style="color: var(--vp-c-brand-1); margin-bottom: 1rem;">♟️ 执掌棋局，主宰命运 ♟️</h3>
-  <p style="font-size: 1.1rem; color: rgba(255, 255, 255, 0.9);">在永恒棋盘上，每一步都是神灵的博弈</p>
+  <h3 style="color: var(--vp-c-brand-1); margin-bottom: 1rem;">⚙️ 唤醒沉睡，重铸辉煌 ⚙️</h3>
+  <p style="font-size: 1.1rem; color: rgba(255, 255, 255, 0.9);">在大休眠的废墟上，唤醒你的铜偶伙伴</p>
 </div>
 
