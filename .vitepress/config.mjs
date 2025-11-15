@@ -8,7 +8,7 @@ export default defineConfig({
   head: [
     // ['link', { rel: 'icon', href: '/CopperPuppetry-Wiki/favicon.ico' }] // 暂时注释，后续添加 favicon
   ],
-  appearance: true, // 启用深色/浅色模式切换
+  // appearance: true, // 主题切换功能暂时禁用，样式不太好看
   themeConfig: {
     // logo: '/logo.svg', // 暂时注释，后续添加 logo
     nav: [
