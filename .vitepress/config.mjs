@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: "Copper Puppetry Wiki",
-  description: "铜傀奇谭游戏百科全书",
+  description: "铜偶戏游戏百科全书",
   base: '/CopperPuppetry-Wiki/',
   ignoreDeadLinks: true, // 允许死链接，页面可以后续添加
   head: [
@@ -12,6 +12,7 @@ export default defineConfig({
     // logo: '/logo.svg', // 暂时注释，后续添加 logo
     nav: [
       { text: '首页', link: '/' },
+      { text: '游戏背景', link: '/lore/background' },
       { text: '设计玩法', link: '/gameplay/' },
       { text: '英雄百科', link: '/heroes/' },
       { text: '装备百科', link: '/equipment/' },
