@@ -22,11 +22,11 @@
 - 💪 **生存能力**：低
 
 #### 代表英雄
-- [Bubble - 泡泡](./arcanist/bubble) - 范围控制专家
-- [Glimmer - 微光](./arcanist/glimmer) - 持续输出法师
-- [Spark - 火花](./arcanist/spark) - 爆发伤害高手
-- [Syrup - 糖浆](./arcanist/syrup) - 减速控制
-- [Turner - 特纳](./arcanist/turner) - 多重打击
+- [波普尔 (Bubble)](./arcanist/bubble) - 清洁单位，完美气泡术
+- [菲尼 (Glimmer)](./arcanist/glimmer) - 剧场灯光师，光之魔法
+- [咝咝 (Spark)](./arcanist/spark) - 能量学院天才，不稳定的高能输出
+- [拉斐尔 (Syrup)](./arcanist/syrup) - 糖果工坊主，甜蜜的魔法
+- [卷卷 (Turner)](./arcanist/turner) - 图书管理员，知识的力量
 
 </div>
 
@@ -44,11 +44,11 @@
 - 💪 **生存能力**：中等
 
 #### 代表英雄
-- [Artifex - 工匠](./craftsman/artifex) - 建筑大师
-- [Coil - 线圈](./craftsman/coil) - 能量支援
-- [Drillbit - 钻头](./craftsman/drillbit) - 资源增幅
-- [Quickhand - 快手](./craftsman/quickhand) - 快速建造
-- [Wrench - 扳手](./craftsman/wrench) - 维修专家
+- [公输 (Artifex)](./craftsman/artifex) - 古法工匠，坚固建筑大师
+- [特斯拉 (Coil)](./craftsman/coil) - 能量研究员，电磁线圈专家
+- [丁格 (Drillbit)](./craftsman/drillbit) - 钻探手，资源采集专家
+- [小卯 (Quickhand)](./craftsman/quickhand) - 速建天才，建造记录保持者
+- [波波 (Wrench)](./craftsman/wrench) - 修理班成员，万能维修工
 
 </div>
 
@@ -66,11 +66,11 @@
 - 💪 **生存能力**：极高
 
 #### 代表英雄
-- [Bell - 钟铃](./iron_wall/bell) - 反击坦克
-- [Chief - 酋长](./iron_wall/chief) - 领袖型坦克
-- [Rocky - 洛基](./iron_wall/rocky) - 石化防御
-- [Tumble - 翻滚](./iron_wall/tumble) - 灵活坦克
-- [Wesley - 韦斯利](./iron_wall/wesley) - 生命恢复
+- [大贝尔 (Bell)](./iron_wall/bell) 
+- [铿铿 (Chief)](./iron_wall/chief) 
+- [阿磐 (Rocky)](./iron_wall/rocky) 
+- [团团 (Tumble)](./iron_wall/tumble) 
+- [卫斯理 (Wesley)](./iron_wall/wesley) 
 
 </div>
 
@@ -88,11 +88,11 @@
 - 💪 **生存能力**：中等
 
 #### 代表英雄
-- [Gyro - 陀螺](./mechanic/gyro) - 旋转攻击
-- [Karin - 卡琳](./mechanic/karin) - 精密射击
-- [Pendulum - 钟摆](./mechanic/pendulum) - 摆动打击
-- [Tricky - 诡计](./mechanic/tricky) - 诡术专家
-- [Yoyo - 溜溜球](./mechanic/yoyo) - 来回攻击
+- [米洛 (Gyro)](./mechanic/gyro) 
+- [卡琳 (Karin)](./mechanic/karin) 
+- [格洛克 (Pendulum)](./mechanic/pendulum) 
+- [杰克 (Tricky)](./mechanic/tricky) 
+- [溜溜 (Yoyo)](./mechanic/yoyo) 
 
 </div>
 
@@ -110,11 +110,11 @@
 - 💪 **生存能力**：中低
 
 #### 代表英雄
-- [Clawster - 爪蟹](./resonator/clawster) - 召唤小蟹
-- [Diggs - 迪格斯](./resonator/diggs) - 地下召唤
-- [Hive - 蜂巢](./resonator/hive) - 蜂群召唤
-- [Melody - 旋律](./resonator/melody) - 音波增益
-- [Murmur - 低语](./resonator/murmur) - 灵魂共鸣
+- [库克 (Clawster)](./resonator/clawster) 
+- [掘掘 (Diggs)](./resonator/diggs) 
+- [蜜拉 (Hive)](./resonator/hive) 
+- [啾啾 (Melody)](./resonator/melody) 
+- [絮絮 (Murmur)](./resonator/murmur) 
 
 </div>
 
