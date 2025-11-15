@@ -8,6 +8,7 @@ export default defineConfig({
   head: [
     // ['link', { rel: 'icon', href: '/CopperPuppetry-Wiki/favicon.ico' }] // 暂时注释，后续添加 favicon
   ],
+  appearance: true, // 启用深色/浅色模式切换
   themeConfig: {
     // logo: '/logo.svg', // 暂时注释，后续添加 logo
     nav: [
@@ -41,55 +42,55 @@ export default defineConfig({
               text: '奥术师 (Arcanist)',
               collapsed: false,
               items: [
-                { text: 'Bubble - 泡泡', link: '/heroes/arcanist/bubble' },
-                { text: 'Glimmer - 微光', link: '/heroes/arcanist/glimmer' },
-                { text: 'Spark - 火花', link: '/heroes/arcanist/spark' },
-                { text: 'Syrup - 糖浆', link: '/heroes/arcanist/syrup' },
-                { text: 'Turner - 特纳', link: '/heroes/arcanist/turner' }
+                { text: '波普尔 (Bubble)', link: '/heroes/arcanist/bubble' },
+                { text: '菲尼 (Glimmer)', link: '/heroes/arcanist/glimmer' },
+                { text: '咝咝 (Spark)', link: '/heroes/arcanist/spark' },
+                { text: '拉斐尔 (Syrup)', link: '/heroes/arcanist/syrup' },
+                { text: '卷卷 (Turner)', link: '/heroes/arcanist/turner' }
               ]
             },
             {
               text: '工匠 (Craftsman)',
               collapsed: false,
               items: [
-                { text: 'Artifex - 工匠', link: '/heroes/craftsman/artifex' },
-                { text: 'Coil - 线圈', link: '/heroes/craftsman/coil' },
-                { text: 'Drillbit - 钻头', link: '/heroes/craftsman/drillbit' },
-                { text: 'Quickhand - 快手', link: '/heroes/craftsman/quickhand' },
-                { text: 'Wrench - 扳手', link: '/heroes/craftsman/wrench' }
+                { text: '公输 (Artifex)', link: '/heroes/craftsman/artifex' },
+                { text: '特斯拉 (Coil)', link: '/heroes/craftsman/coil' },
+                { text: '丁格 (Drillbit)', link: '/heroes/craftsman/drillbit' },
+                { text: '小卯 (Quickhand)', link: '/heroes/craftsman/quickhand' },
+                { text: '波波 (Wrench)', link: '/heroes/craftsman/wrench' }
               ]
             },
             {
               text: '铁壁 (Iron Wall)',
               collapsed: false,
               items: [
-                { text: 'Bell - 钟铃', link: '/heroes/iron_wall/bell' },
-                { text: 'Chief - 酋长', link: '/heroes/iron_wall/chief' },
-                { text: 'Rocky - 洛基', link: '/heroes/iron_wall/rocky' },
-                { text: 'Tumble - 翻滚', link: '/heroes/iron_wall/tumble' },
-                { text: 'Wesley - 韦斯利', link: '/heroes/iron_wall/wesley' }
+                { text: '大贝尔 (Bell)', link: '/heroes/iron_wall/bell' },
+                { text: '铿铿 (Chief)', link: '/heroes/iron_wall/chief' },
+                { text: '阿磐 (Rocky)', link: '/heroes/iron_wall/rocky' },
+                { text: '团团 (Tumble)', link: '/heroes/iron_wall/tumble' },
+                { text: '卫斯理 (Wesley)', link: '/heroes/iron_wall/wesley' }
               ]
             },
             {
               text: '机械师 (Mechanic)',
               collapsed: false,
               items: [
-                { text: 'Gyro - 陀螺', link: '/heroes/mechanic/gyro' },
-                { text: 'Karin - 卡琳', link: '/heroes/mechanic/karin' },
-                { text: 'Pendulum - 钟摆', link: '/heroes/mechanic/pendulum' },
-                { text: 'Tricky - 诡计', link: '/heroes/mechanic/tricky' },
-                { text: 'Yoyo - 溜溜球', link: '/heroes/mechanic/yoyo' }
+                { text: '米洛 (Gyro)', link: '/heroes/mechanic/gyro' },
+                { text: '卡琳 (Karin)', link: '/heroes/mechanic/karin' },
+                { text: '格洛克 (Pendulum)', link: '/heroes/mechanic/pendulum' },
+                { text: '杰克 (Tricky)', link: '/heroes/mechanic/tricky' },
+                { text: '溜溜 (Yoyo)', link: '/heroes/mechanic/yoyo' }
               ]
             },
             {
               text: '共鸣者 (Resonator)',
               collapsed: false,
               items: [
-                { text: 'Clawster - 爪蟹', link: '/heroes/resonator/clawster' },
-                { text: 'Diggs - 迪格斯', link: '/heroes/resonator/diggs' },
-                { text: 'Hive - 蜂巢', link: '/heroes/resonator/hive' },
-                { text: 'Melody - 旋律', link: '/heroes/resonator/melody' },
-                { text: 'Murmur - 低语', link: '/heroes/resonator/murmur' }
+                { text: '库克 (Clawster)', link: '/heroes/resonator/clawster' },
+                { text: '掘掘 (Diggs)', link: '/heroes/resonator/diggs' },
+                { text: '蜜拉 (Hive)', link: '/heroes/resonator/hive' },
+                { text: '啾啾 (Melody)', link: '/heroes/resonator/melody' },
+                { text: '絮絮 (Murmur)', link: '/heroes/resonator/murmur' }
               ]
             }
           ]
@@ -100,16 +101,16 @@ export default defineConfig({
           text: '装备百科',
           items: [
             { text: '装备概览', link: '/equipment/' },
-            { text: '指南针 (Compass)', link: '/equipment/compass' },
-            { text: '长笛 (Flute)', link: '/equipment/flute' },
-            { text: '碎片 (Fragment)', link: '/equipment/fragment' },
-            { text: '齿轮口袋 (Gear Pocket)', link: '/equipment/gear-pocket' },
-            { text: '邀请函 (Invitation)', link: '/equipment/invitation' },
-            { text: '盖子 (Lid)', link: '/equipment/lid' },
-            { text: '线型要塞 (Line Fortress)', link: '/equipment/line-fortress' },
-            { text: '棱镜 (Prism)', link: '/equipment/prism' },
-            { text: '鹅毛笔 (Quill Pen)', link: '/equipment/quill-pen' },
-            { text: '扳手 (Wrench)', link: '/equipment/wrench' }
+            { text: '掘掘的幸运罗盘', link: '/equipment/compass' },
+            { text: '哨歌的共鸣笛', link: '/equipment/flute' },
+            { text: '钟摆的时之碎片', link: '/equipment/fragment' },
+            { text: '万用齿轮口袋', link: '/equipment/gear-pocket' },
+            { text: '旋旋的舞会请柬', link: '/equipment/invitation' },
+            { text: '锅盖君的绝对防御', link: '/equipment/lid' },
+            { text: '毛团的线团堡垒', link: '/equipment/line-fortress' },
+            { text: '流光溢彩的棱镜', link: '/equipment/prism' },
+            { text: '书页的速记羽毛笔', link: '/equipment/quill-pen' },
+            { text: '不稳定的欢乐扳手', link: '/equipment/wrench' }
           ]
         }
       ],
@@ -118,16 +119,14 @@ export default defineConfig({
           text: '建筑百科',
           items: [
             { text: '建筑概览', link: '/structures/' },
-            { text: '自动装填炮 (Automatic Loading Gun)', link: '/structures/automatic-loading-gun' },
-            { text: '充能线圈 (Charging Coil)', link: '/structures/charging-coil' },
-            { text: '齿轮箭塔 (Gear Arrow Tower)', link: '/structures/gear-arrow-tower' },
-            { text: '心源矿钻 (Heart Source Mineral Drill)', link: '/structures/heart-source-mineral-drill' },
-            { text: '镜光折射塔 (Mirror Light Refraction Tower)', link: '/structures/mirror-light-refraction-tower' },
-            { text: '维修车间 (Repair Workshop)', link: '/structures/repair-workshop' },
-            { text: '共振警铃 (Resonance Alarm Bell)', link: '/structures/resonance-alarm-bell' },
-            { text: '铆钉屏障 (Rivet Barrier)', link: '/structures/rivet-barrier' },
-            { text: '蒸汽矿车 (Steam Mining Car)', link: '/structures/steam-mining-car' },
-            { text: '风暴铁砧 (Storm Anvil)', link: '/structures/storm-anvil' }
+            { text: '充能线圈', link: '/structures/charging-coil' },
+            { text: '齿轮箭塔', link: '/structures/gear-arrow-tower' },
+            { text: '心源矿钻', link: '/structures/heart-source-mineral-drill' },
+            { text: '镜光折射塔', link: '/structures/mirror-light-refraction-tower' },
+            { text: '维修工坊', link: '/structures/repair-workshop' },
+            { text: '共鸣警钟', link: '/structures/resonance-alarm-bell' },
+            { text: '铆接壁垒', link: '/structures/rivet-barrier' },
+            { text: '风暴铁砧', link: '/structures/storm-anvil' }
           ]
         }
       ]
