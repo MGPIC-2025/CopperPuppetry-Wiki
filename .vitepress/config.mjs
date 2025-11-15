@@ -119,14 +119,14 @@ export default defineConfig({
           text: '建筑百科',
           items: [
             { text: '建筑概览', link: '/structures/' },
-            { text: '充能线圈', link: '/structures/charging-coil' },
             { text: '齿轮箭塔', link: '/structures/gear-arrow-tower' },
-            { text: '心源矿钻', link: '/structures/heart-source-mineral-drill' },
             { text: '镜光折射塔', link: '/structures/mirror-light-refraction-tower' },
+            { text: '风暴铁砧', link: '/structures/storm-anvil' },
             { text: '维修工坊', link: '/structures/repair-workshop' },
-            { text: '共鸣警钟', link: '/structures/resonance-alarm-bell' },
+            { text: '心源矿钻', link: '/structures/heart-source-mineral-drill' },
             { text: '铆接壁垒', link: '/structures/rivet-barrier' },
-            { text: '风暴铁砧', link: '/structures/storm-anvil' }
+            { text: '共鸣警钟', link: '/structures/resonance-alarm-bell' },
+            { text: '⚠️ 充能线圈（敌方）', link: '/structures/charging-coil' }
           ]
         }
       ]
