@@ -123,17 +123,38 @@ nav: [
 
 ## 部署到 GitHub Pages
 
-### 自动部署（推荐）
+本项目使用 **GitHub Actions** 自动部署，无需手动构建和推送。
 
-这是最简单的部署方式，推送代码后自动构建和部署。
+### 部署流程
 
-1. 确保项目中有 `.github/workflows/deploy.yml` 文件
-2. 在 GitHub 仓库设置中：
-   - 进入 Settings > Pages
-   - Source 选择 "GitHub Actions"
-3. 推送代码到 main 分支就会自动触发部署
+1. **确保 `.nojekyll` 文件存在**  
+   这个空文件告诉 GitHub Pages 不要使用 Jekyll 处理
 
-部署完成后，访问 `https://mgpic-2025.github.io/CopperPuppetry-Wiki/` 就能看到网站了。
+2. **配置 GitHub Pages 设置**  
+   - 进入仓库的 Settings > Pages
+   - Source 选择 **"GitHub Actions"**（不是 "Deploy from a branch"）
+
+3. **推送代码即可自动部署**  
+   ```bash
+   git add .
+   git commit -m "更新内容"
+   git push
+   ```
+
+4. **查看部署状态**  
+   - 访问仓库的 Actions 标签页
+   - 等待构建完成（绿色 ✅）
+   - 访问 `https://mgpic-2025.github.io/CopperPuppetry-Wiki/`
+
+### 工作流程
+
+项目使用 `.github/workflows/deploy.yml` 自动完成：
+1. 检测到 main 分支有新推送
+2. 安装 Node.js 依赖
+3. 运行 `npm run docs:build` 构建 VitePress
+4. 自动部署到 GitHub Pages
+
+**注意**：不要使用 `npm run deploy` 命令，已废弃。
 
 ## 贡献内容
 
@@ -163,7 +184,21 @@ nav: [
 
 ## 关于游戏
 
-Copper Puppetry（铜偶戏）是一款融合了塔防和卡牌策略的游戏，背景设定在一个蒸汽朋克风格的奇幻世界。你将扮演铜偶工匠，召唤并指挥各种铜偶机械，抵御入侵的敌人。
+Copper Puppetry（铜偶戏）是一款融合了塔防和卡牌策略的游戏。
+
+### 游戏背景
+
+在齿轮与蒸汽交织的世界中，曾经辉煌的**铜曜王朝**在神秘的"大休眠"事件中陷入沉睡。王朝的科技遗产——拥有灵性的铜偶们——散落各地，等待被唤醒。
+
+你将扮演能够唤醒铜偶的指挥者，召唤这些带着往日记忆的机械生命，探索大休眠的真相，重铸铜曜王朝的辉煌。
+
+### 游戏特色
+
+- **塔防 × 卡牌融合**：使用精炼铜锭召唤铜偶英雄，在战场上布局和战斗
+- **五大职业体系**：奥术师、工匠、铁壁、机械师、共鸣者
+- **25+ 铜偶英雄**：每个英雄都有独特的技能和背景故事
+- **建筑系统**：重建铜曜王朝的古老建筑，构筑防线
+- **蒸汽朋克风格**：齿轮、铜器、蒸汽与魔法的奇妙融合
 
 ## 联系我们
 
@@ -173,6 +208,6 @@ Copper Puppetry（铜偶戏）是一款融合了塔防和卡牌策略的游戏�
 
 ---
 
-铸造传奇，守护世界
+⚙️ **唤醒沉睡，重铸辉煌** ⚙️
 
-由爱与齿轮驱动
+在大休眠的废墟上，唤醒你的铜偶伙伴
