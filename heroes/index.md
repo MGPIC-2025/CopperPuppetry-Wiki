@@ -1,8 +1,8 @@
-# 英雄百科
+﻿# 英雄百科
 
 欢迎来到 Copper Puppetry（铜偶戏）的英雄百科！这里收录了所有可用的铜偶英雄及其详细信息。
 
-## 🤖 英雄总览
+## <span class="steam-icon gear"></span> 英雄总览
 
 游戏中共有 **25 位** 独特的铜偶英雄，分为五大职业。每个职业都有独特的战术定位和玩法风格。
 
@@ -10,7 +10,7 @@
 
 ## 五大职业
 
-### ✨ 奥术师 (Arcanist)
+### <span class="steam-icon star"></span> 奥术师 (Arcanist)
 
 <div style="border: 2px solid #f59e0b; padding: 1.5rem; border-radius: 12px; background: rgba(245, 158, 11, 0.08); margin: 1rem 0;">
 
@@ -19,7 +19,7 @@
 - 📍 **定位**：后排输出
 - ⚡ **伤害类型**：魔法伤害
 - 🎯 **攻击范围**：远程
-- 💪 **生存能力**：低
+- 🛡️ **生存能力**：低
 
 #### 代表英雄
 - [波普尔 (Bubble)](./arcanist/bubble) - 清洁单位，完美气泡术
@@ -32,7 +32,7 @@
 
 ---
 
-### 🔨 工匠 (Craftsman)
+### <span class="steam-icon gear"></span> 工匠 (Craftsman)
 
 <div style="border: 2px solid #06b6d4; padding: 1.5rem; border-radius: 12px; background: rgba(6, 182, 212, 0.08); margin: 1rem 0;">
 
@@ -41,7 +41,7 @@
 - 📍 **定位**：辅助支援
 - ⚡ **伤害类型**：物理伤害（较低）
 - 🎯 **攻击范围**：近战/中程
-- 💪 **生存能力**：中等
+- 🛡️ **生存能力**：中等
 
 #### 代表英雄
 - [公输 (Artifex)](./craftsman/artifex) - 古法工匠，坚固建筑大师
@@ -54,7 +54,7 @@
 
 ---
 
-### 🛡️ 铁壁 (Iron Wall)
+### <span class="steam-icon shield"></span> 铁壁 (Iron Wall)
 
 <div style="border: 2px solid #64748b; padding: 1.5rem; border-radius: 12px; background: rgba(100, 116, 139, 0.08); margin: 1rem 0;">
 
@@ -63,7 +63,7 @@
 - 📍 **定位**：前排坦克
 - ⚡ **伤害类型**：物理伤害（较低）
 - 🎯 **攻击范围**：近战
-- 💪 **生存能力**：极高
+- 🛡️ **生存能力**：极高
 
 #### 代表英雄
 - [大贝尔 (Bell)](./iron_wall/bell) 
@@ -76,7 +76,7 @@
 
 ---
 
-### ⚙️ 机械师 (Mechanic)
+### <span class="steam-icon gear"></span> 机械师 (Mechanic)
 
 <div style="border: 2px solid #a855f7; padding: 1.5rem; border-radius: 12px; background: rgba(168, 85, 247, 0.08); margin: 1rem 0;">
 
@@ -85,7 +85,7 @@
 - 📍 **定位**：灵活输出
 - ⚡ **伤害类型**：物理伤害
 - 🎯 **攻击范围**：中程
-- 💪 **生存能力**：中等
+- 🛡️ **生存能力**：中等
 
 #### 代表英雄
 - [米洛 (Gyro)](./mechanic/gyro) 
@@ -98,7 +98,7 @@
 
 ---
 
-### 🎵 共鸣者 (Resonator)
+### <span class="steam-icon lightning"></span> 共鸣者 (Resonator)
 
 <div style="border: 2px solid #10b981; padding: 1.5rem; border-radius: 12px; background: rgba(16, 185, 129, 0.08); margin: 1rem 0;">
 
@@ -107,7 +107,7 @@
 - 📍 **定位**：增益/召唤
 - ⚡ **伤害类型**：混合/召唤物
 - 🎯 **攻击范围**：中远程
-- 💪 **生存能力**：中低
+- 🛡️ **生存能力**：中低
 
 #### 代表英雄
 - [库克 (Clawster)](./resonator/clawster) 
@@ -132,7 +132,7 @@
 
 ---
 
-## 🎯 英雄选择建议
+## <span class="steam-icon aim"></span> 英雄选择建议
 
 ### 新手友好英雄
 
@@ -166,7 +166,7 @@
 
 ---
 
-## 🔄 英雄获取方式
+## <span class="steam-icon lightning"></span> 英雄获取方式
 
 ### 初始英雄
 游戏开始时免费获得：
@@ -186,7 +186,7 @@
 
 ---
 
-## 💡 队伍搭配建议
+## <span class="steam-icon bulb"></span> 队伍搭配建议
 
 ### 平衡型队伍（推荐新手）
 ```
@@ -223,11 +223,11 @@
 
 点击职业名称查看该职业所有英雄的详细信息：
 
-- [✨ 奥术师英雄详解](./arcanist/bubble)
-- [🔨 工匠英雄详解](./craftsman/artifex)
+- [⭐ 奥术师英雄详解](./arcanist/bubble)
+- [⚙️ 工匠英雄详解](./craftsman/artifex)
 - [🛡️ 铁壁英雄详解](./iron_wall/bell)
 - [⚙️ 机械师英雄详解](./mechanic/gyro)
-- [🎵 共鸣者英雄详解](./resonator/clawster)
+- [⚡ 共鸣者英雄详解](./resonator/clawster)
 
 ---
 

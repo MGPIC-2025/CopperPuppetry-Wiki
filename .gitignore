@@ -3,4 +3,5 @@ node_modules/
 .vitepress/dist
 .DS_Store
 *.log
+.idea
 

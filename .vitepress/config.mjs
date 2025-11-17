@@ -6,7 +6,7 @@ export default defineConfig({
   base: '/CopperPuppetry-Wiki/',
   ignoreDeadLinks: true, // 允许死链接，页面可以后续添加
   head: [
-    // ['link', { rel: 'icon', href: '/CopperPuppetry-Wiki/favicon.ico' }] // 暂时注释，后续添加 favicon
+    ['link', { rel: 'icon', href: '/CopperPuppetry-Wiki/favicon.ico' }]
   ],
   // appearance: true, // 主题切换功能暂时禁用，样式不太好看
   themeConfig: {
